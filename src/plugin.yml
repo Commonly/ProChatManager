@@ -1,0 +1,24 @@
+name: ProChatManager
+main: me.ghostrider.prochatmanager.ProChatManager
+version: 1.0-Alpha
+author: Ghostrider
+commands:
+   clearchat:
+      description: Clear the chat.
+      usage: /<command>
+   mutechat:
+      description: Mute the chat.
+      usage: /<command>
+permissions:      
+  prochatmanager.clearchat:
+    description: Allows you to clear the chat.
+    default: op
+  prochatmanager.donatorjoin:
+    description: Gives you donator join message.
+    default: false 
+  prochatmanager.staffjoin:
+    description: Gives you staff join message.
+    default: op 
+  prochatmanager.bypass:
+    description: Bypass clearchat.
+    default: op   

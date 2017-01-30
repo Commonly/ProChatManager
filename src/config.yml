@@ -1,0 +1,30 @@
+settings:
+
+  #sound that plays on donator join. 
+  donator-join-sound: BLOCK_ANVIL_LAND
+  
+  #sound that plays on staff join.
+  staff-join-sound: ENTITY_ENDERDRAGON_DEATH
+  
+  #This words can't be said.
+  blocked-words:
+  - fuck
+  - shit
+  - bitch
+  - asshole
+  - fag
+  
+  #This commands can't be used.
+  blocked-commands:
+  - pl
+  - plugins
+  - about
+  - version
+  
+messages:
+  clearchat: '&c&l%sender% &f&lhas cleared the chat.'
+  player-join: '&f%player% &7has joined the server.'
+  donator-join: '&e&l%player% &a&lhas joined the server.'
+  staff-join: '&c&l%player% &a&lhas joined the server.'
+  command-blocked: '&c&lThis command is blocked by the server owner!'
+  word-blocked: '&c&lYou are not allowed to say this word!'
